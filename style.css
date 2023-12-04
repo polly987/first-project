@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  header {
+    position: fixed;
+    color: #fff;
+    display: flex;
+    padding: 2.5rem 3rem;
+    gap: 2rem;
+    z-index: 1;
+}
+header a {
+    color:white;
+    font-family: sans-serif;
+    
+}
+nav {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+ nav a {
+    text-decoration: none;
+    font-size: .85rem;
+    font-weight: 700;
+    color:white;
+    
+}
+
+a:webkit-anylink {
+    cursor:pointer;
+    color:webkit link;
+    text-decoration-color: aqua;
+    
+}
+
+body h1, h2 {
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    color:white
+  }
+
+  body {
+    display:block;
+    margin:8px;
+  }
+ 
+  main {
+    display:block;
+  }
+
+  .feature {
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+   position:relative;
+}
+
+section {
+    display: block;
+}
+
+div {
+    display:block;
+}
+
+    link {
+        display:none;
+    }
+
+    .part-one {
+     position: absolute;
+     display:flex;
+     flex-direction:column;
+    bottom: 200px;
+    left: 2rem;
+    color: #fff;
+    gap:.9rem;
+    }  
+    
+    .part-one_title {
+    font-size: 1.2rem;
+    font-weight:150;
+    opacity: 1;
+}
+
+    .part-one_ heading {
+    font-size:3rm;
+    font-weight:700;
+}
+    .part-one_more {  
+    margin-top: 1.2rem;
+    display: inline-block;
+    font-size: .90rem;
+    font-weight: 700;
+    opacity: 1;
+    color: #fff;
+    border: 3px solid white;
+    padding: 1rem 2rem;
+    max-width:200px;
+    text-decoration-thickness: auto;
+    text-decoration-style: underline;
+}
+ 
+h1 {
+display:block;
+font-weight:bold;
+font-size: 2.5rem;
+padding:2.5px;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5rem;
+    padding: 2px;
+    font-weight: 800;
+} 
+  
+  .image-galaxy {
+    background-image: url("./images/galaxy.jpg"); 
+  }
+  
+.image-landscape {
+    background-image: url("./images/landscape.jpg");
+  }
+
+  .image-eclipse {
+    background-image: url("./images/eclipse.jpg");
+  }
+
+
+  footer {
+    background: black;
+    text-align: center;
+    padding: 10px;
+    color:white;
+  }
